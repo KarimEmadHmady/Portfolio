@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200;300;400;500&family=Rubik+Maps&display=swap');header nav a {
+    font-weight: bold;
+    padding: 3px 5px;
+    background-color: #eee;
+    border-radius:  309px 18px 200px 165px;
+    font-family: Kalnia;
+}
