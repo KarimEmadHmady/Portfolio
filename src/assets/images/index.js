@@ -9,6 +9,12 @@ import eagle from './eagle.png'
 import tamken from './tamken.png'
 import freeDigi from './freeDigi.png'
 import imgProdu from './4.png'
+import eagleImg from './4.png'
+import marmorinoImg from './marmo.png'
+import efhasImg from './efhas.png'
+import ragaImg from './raga.png'
+import cashaImg from './casha.png'
+import sandImg from './sand.png'
 
 
 
@@ -24,5 +30,10 @@ export {
     tamken,
     freeDigi,
     imgProdu,
-
+    eagleImg,
+    marmorinoImg,
+    efhasImg,
+    ragaImg,
+    cashaImg,
+    sandImg
 }

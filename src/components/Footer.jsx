@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 import { socialLinks } from "../constants";
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    // Smoothly scroll to the top
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
@@ -22,6 +31,7 @@ const Footer = () => {
               />
             </Link>
           ))}
+          <div className="to-up" onClick={scrollToTop} >🔝</div>
         </div>
       </div>
     </footer>

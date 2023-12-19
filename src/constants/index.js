@@ -1,4 +1,20 @@
-import { meta, shopify, starbucks, tesla, Wxora, eagle, tamken, freeDigi, imgProdu  } from "../assets/images";
+import { 
+    meta,
+    shopify,
+    starbucks,
+    tesla,
+    Wxora,
+    eagle,
+    tamken,
+    freeDigi,
+    imgProdu,
+    eagleImg,
+    marmorinoImg,
+    efhasImg,
+    ragaImg,
+    cashaImg,
+    sandImg
+ } from "../assets/images";
 
 
 import {
@@ -28,13 +44,12 @@ import {
     typescript ,
     digi,
     udadigi,
-    uda
-    
-
+    uda,
+    CV
 } from "../assets/icons";
 
 
-export {uda, udadigi}
+export {uda, udadigi, CV}
 export const skills = [
     {
         imageUrl: css,
@@ -195,7 +210,7 @@ export const projects = [
         name: 'EAGLE Company ',
         description: 'Brand Eagle for men clothing - Country: Egypt' ,
         link: 'https://www.eagle.com.eg/',
-        imgProdu:'/src/assets/images/4.png'
+        imgProdu: eagleImg,
 
     },
     {
@@ -204,7 +219,7 @@ export const projects = [
         name: 'Marmorino ecommerce',
         description: 'Paint store - Country: Netherlands',
         link: 'https://marmorino.nl/',
-        imgProdu:'/src/assets/images/marmo.png'
+        imgProdu: marmorinoImg,
     },
     {
         iconUrl: car,
@@ -212,7 +227,7 @@ export const projects = [
         name: 'Efhas Company',
         description: 'Home inspection company - Country: Dubai Abu Dhabi',
         link: 'https://efhas.net/',
-        imgProdu:'/src/assets/images/efhas.png'
+        imgProdu: efhasImg,
     },
     {
         iconUrl: snapgram,
@@ -220,7 +235,7 @@ export const projects = [
         name: 'ROASTINGART ecommerce',
         description: 'Coffee of all kinds - Country: Saudi Arabia',
         link: 'https://roastingart.com/ar/',
-        imgProdu:'/src/assets/images/raga.png'
+        imgProdu: ragaImg,
     },
     {
         iconUrl: estate,
@@ -228,7 +243,7 @@ export const projects = [
         name: 'cashada ecommerce',
         description: 'Clothing brand - Country: Egypt',
         link: 'https://cashada.shop/',
-        imgProdu:'/src/assets/images/casha.png'
+        imgProdu: cashaImg,
     },
     {
         iconUrl: summiz,
@@ -236,7 +251,7 @@ export const projects = [
         name: 'SandCotton ecommerce',
         description: 'Clothing brand - Country: Saudi Arabia',
         link: 'https://sandcotton.com/',
-        imgProdu:'/src/assets/images/sand.png'
+        imgProdu: sandImg,
     }
 ];
 

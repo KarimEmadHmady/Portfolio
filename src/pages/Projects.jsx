@@ -37,11 +37,11 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className='mt-5 flex flex-col'>
-              <h4 className='text-2xl font-poppins font-semibold'>
+            <div className='mt-1 flex flex-col contain-of-pro-page'>
+              <h4 className='text-2xl font-poppins font-semibold header-title-of-proje'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500'>{project.description}</p>
+              <p className='mt-2 text-slate-500 title-on-proj-page'>{project.description}</p>
                 <div className="img-box">
                   <img  src={project.imgProdu} alt="" />
                 </div> 

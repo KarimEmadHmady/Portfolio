@@ -33,6 +33,7 @@ import udadigi from '../images/udadigi.png'
 
 
 
+
 export {
     css,
     express,
@@ -64,6 +65,6 @@ export {
     soundoff,
     digi,
     uda,
-    udadigi
+    udadigi,
+    CV
 }
-export { CV }

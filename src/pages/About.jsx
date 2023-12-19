@@ -6,13 +6,12 @@ import {
 import '../index.css'
 
 import { CTA } from "../components";
-import { experiences, skills  } from "../constants";
+import { experiences, skills, CV  } from "../constants";
 
 import 'react-vertical-timeline-component/style.min.css';
 import { NavLink } from "react-router-dom";
-import { CV } from "../assets/icons";
-import { uda, udadigi } from "../assets/icons";
 
+import { uda, udadigi } from "../assets/icons";
 
 
 
@@ -43,7 +42,7 @@ const About = () => {
         <h3 className='subhead-text'>My Skills</h3> 
        
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className='mt-16 flex flex-wrap gap-12 items-center justify-center'>
           {skills.map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
@@ -60,7 +59,9 @@ const About = () => {
 
       </div>
 
-        <NavLink href={CV} download="Karim-Emad_CV.pdf" className='subhead-text  button-My-Resume' >Download My Resume</NavLink>
+      
+            
+        <a href={CV} download="Karim-Emad-CV.pdf" className='subhead-text  blue-gradient_text font-semibold  button-My-Resume' >Download My Resume</a>
 
 
             <div className="what-i-do">
