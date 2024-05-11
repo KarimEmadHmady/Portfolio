@@ -8,6 +8,18 @@
   --blue-rgb: 237 245 255;
   --green-rgb: 125 161 35;
 }
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #0073ff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #44c5fd; 
+  border-radius: 2px; 
+}
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -299,3 +311,21 @@ body:has(.card[data-color="green"]:hover) {
   cursor: pointer;
   margin-left: 60px;
 }
+
+.btn-front{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn-front h1 {
+font-size: 13px;
+margin-top: 2px;
+}
+
+.block-container .btn-front {
+  width: 97px;
+}
+

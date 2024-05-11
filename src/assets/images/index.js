@@ -15,7 +15,7 @@ import efhasImg from './efhas.png'
 import ragaImg from './raga.png'
 import cashaImg from './casha.png'
 import sandImg from './sand.png'
-
+import cafSaIcon from './caf-sap.png'
 
 
 export {
@@ -35,5 +35,6 @@ export {
     efhasImg,
     ragaImg,
     cashaImg,
-    sandImg
+    sandImg,
+    cafSaIcon
 }

@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3> 
+        <h3 className='subhead-text blue-gradient_text'>My Skills</h3> 
        
 
         <div className='mt-16 flex flex-wrap gap-12 items-center justify-center'>
@@ -52,6 +52,7 @@ const About = () => {
                   alt={skill.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
+                <h1 className="blue-gradient_text">{skill.name}</h1>
               </div>
             </div>
           ))}
@@ -65,7 +66,7 @@ const About = () => {
 
 
             <div className="what-i-do">
-              <h3 className="subhead-text ">What I Do</h3>
+              <h3 className="subhead-text blue-gradient_text ">What I Do</h3>
               <div className="what-i-do-contanar">
               <div class="tex-what-i-do" >
                                     <div  >
@@ -113,7 +114,7 @@ const About = () => {
 
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text blue-gradient_text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             I've worked with all sorts of companies, leveling up my skills and
@@ -124,16 +125,16 @@ const About = () => {
         <div className='mt-12 flex'>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
-              <VerticalTimelineElement
+              <VerticalTimelineElement 
                 key={experience.company_name}
-                date={experience.date}
+                date={experience.date} 
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-[100%] h-[100%] object-contain'
                     />
                   </div>
                 }
@@ -145,7 +146,7 @@ const About = () => {
                 }}
               >
                 <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                  <h3 className='text-black text-xl font-poppins font-semibold blue-gradient_text'>
                     {experience.title}
                   </h3>
                   <p
@@ -156,11 +157,11 @@ const About = () => {
                   </p>
                 </div>
 
-                <ul className='my-5 list-disc ml-5 space-y-2'>
+                <ul className='my-5 list-disc ml-5 space-y-2 '>
                   {experience.points.map((point, index) => (
-                    <li
+                    <li 
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black-500/50 font-normal pl-1 text-sm '
                     >
                       {point}
                     </li>

@@ -13,7 +13,9 @@ import {
     efhasImg,
     ragaImg,
     cashaImg,
-    sandImg
+    sandImg,
+    cafSaIcon,
+
  } from "../assets/images";
 
 
@@ -45,55 +47,22 @@ import {
     digi,
     udadigi,
     uda,
-    CV
+    CV,
+    salla,
+    
 } from "../assets/icons";
 
 
 export {uda, udadigi, CV}
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
     },
     {
@@ -107,24 +76,9 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: express,
+        name: "ExpressJS",
+        type: "Backend",
     },
     {
         imageUrl: typescript,
@@ -132,15 +86,80 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: mui,
+        name: "Shopify",
+        type: "Frontend",
+    },
+    {
+        imageUrl: redux,
+        name: "wordpress",
+        type: "State Management",
+    },
+    {
+        imageUrl: sass,
+        name: "Odoo ERP",
+        type: "Frontend",
+    },
+    {
+        imageUrl: salla,
+        name: "Salla",
+        type: "Frontend",
+    },
+    {
+        imageUrl: motion,
+        name: "SEO",
+        type: "Animation",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Woocommerce",
+        type: "Frontend",
+    },
+
+    {
         imageUrl: digi,
-        name: "Digi",
+        name: "Digital Marketing",
         type: "Frontend",
     }
-
 
 ];
 
 export const experiences = [
+    {
+        title: "Shopify And salla Developer And Expert",
+        company_name: "Caf Sap",
+        icon: cafSaIcon,
+        iconBg: "#ffc107",
+        date: " Jan 2024 - Present  ",
+        points: [
+            "I am proud to be a part of 'Caf Sap', a dynamic Saudi company renowned for its commitment to excellence in the realm of information technology. The company fosters a culture of innovation and collaboration, providing ample opportunities for professional growth and development. 'Caf Sap' not only values technical expertise but also prioritizes employee well-being, ensuring a supportive work environment where individuals can thrive and contribute to impactful projects. It's truly inspiring to work alongside talented colleagues and be a part of a company that continuously strives for excellence and pushes boundaries in the IT industry."
+        ],
+    },
     {
         title: "React.js And Next.js And Express Developer",
         company_name: "Wxora",
@@ -156,7 +175,7 @@ export const experiences = [
         company_name: "Eagle",
         icon: eagle,
         iconBg: "#e5e5e5",
-        date: "Jan 2021 - Present",
+        date: "Jan 2021 - April  2023",
         points: [
             "As a Website Developer and Ecommerce Manager at Eagle Company, I have had the privilege of contributing to the company's online presence and growth for the past three years. In my role, I served as the administrator for the company's online store, where I actively participated in the development and management of the e-commerce platform. My responsibilities included working on multiple platforms, including Shopify and System Odoo, to ensure seamless and efficient online operations.",
             "During this tenure, I played a pivotal role in enhancing the functionality and user experience of the online store. This experience has not only deepened my expertise in website development but has also provided valuable insights into the intricacies of managing e-commerce platforms. The dynamic environment at Eagle Company has allowed me to evolve as a professional and contribute meaningfully to the success of the company's online ventures."

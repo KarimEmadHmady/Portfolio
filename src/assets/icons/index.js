@@ -30,6 +30,8 @@ import digi from './digi.svg'
 import CV from './Karim Emad CV.pdf'
 import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
+import salla from './salla.svg'
+
 
 
 
@@ -66,5 +68,7 @@ export {
     digi,
     uda,
     udadigi,
-    CV
+    CV,
+    salla
+
 }
