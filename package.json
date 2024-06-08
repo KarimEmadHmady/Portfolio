@@ -37,5 +37,13 @@
   "main": "postcss.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarimEmadHmady/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KarimEmadHmady/Portfolio/issues"
+  },
+  "homepage": "https://github.com/KarimEmadHmady/Portfolio#readme"
 }

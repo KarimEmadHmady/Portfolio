@@ -151,13 +151,13 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Shopify And salla Developer And Expert",
+        title: "Shopify Expert And salla Developer  ",
         company_name: "Caf Sap",
         icon: cafSaIcon,
         iconBg: "#ffc107",
-        date: " Jan 2024 - Present  ",
+        date: " Jan 2024 - May 2024  ",
         points: [
-            "I am proud to be a part of 'Caf Sap', a dynamic Saudi company renowned for its commitment to excellence in the realm of information technology. The company fosters a culture of innovation and collaboration, providing ample opportunities for professional growth and development. 'Caf Sap' not only values technical expertise but also prioritizes employee well-being, ensuring a supportive work environment where individuals can thrive and contribute to impactful projects. It's truly inspiring to work alongside talented colleagues and be a part of a company that continuously strives for excellence and pushes boundaries in the IT industry."
+            "'Caf Sap' is a leading Saudi IT company known for its dedication to excellence and innovation. The company encourages collaboration and provides opportunities for professional growth. It values both technical expertise and employee well-being, fostering a supportive work environment. Employees are inspired to contribute to impactful projects and are proud to work alongside talented colleagues who continuously push boundaries in the IT industry."
         ],
     },
     {
