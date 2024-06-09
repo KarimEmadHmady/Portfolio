@@ -261,15 +261,15 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'cashada ecommerce',
         description: 'Clothing brand - Country: Egypt',
-        link: 'https://cashada.shop/',
+        link: 'https://cashada.site/',
         imgProdu: cashaImg,
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-red',
-        name: 'SandCotton ecommerce',
-        description: 'Clothing brand - Country: Saudi Arabia',
-        link: 'https://sandcotton.com/',
+        name: 'Beba Shop ecommerce',
+        description: 'Travel supplies - Country: Saudi Arabia',
+        link: 'https://beba-shop168.myshopify.com/',
         imgProdu: sandImg,
     }
 ];
