@@ -32,7 +32,7 @@ const Projects = () => {
                 <img
                   src={project.iconUrl}
                   alt='threads'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-1/2 h-1/2 object-contain height-small-image'
                 />
               </div>
             </div>

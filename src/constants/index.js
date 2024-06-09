@@ -235,9 +235,9 @@ export const projects = [
     {
         iconUrl: threads,
         theme: 'btn-back-red',
-        name: 'Marmorino ecommerce',
-        description: 'Paint store - Country: Netherlands',
-        link: 'https://marmorino.nl/',
+        name: 'Ellen ecommerce',
+        description: 'fashion women - Country: Saudi Arabia',
+        link: 'https://3505fe-05.myshopify.com/',
         imgProdu: marmorinoImg,
     },
     {

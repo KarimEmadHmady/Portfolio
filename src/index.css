@@ -329,3 +329,6 @@ margin-top: 2px;
   width: 97px;
 }
 
+.height-small-image {
+  height: 80% !important;
+}
