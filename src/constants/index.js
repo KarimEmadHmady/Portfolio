@@ -15,6 +15,9 @@ import {
     cashaImg,
     sandImg,
     cafSaIcon,
+    fashoin,
+    games,
+    cafsaap
 
  } from "../assets/images";
 
@@ -49,6 +52,10 @@ import {
     uda,
     CV,
     salla,
+    tobadoo,
+    cafsap,
+    bradbaby
+
     
 } from "../assets/icons";
 
@@ -247,6 +254,30 @@ export const projects = [
         description: 'Home inspection company - Country: Dubai Abu Dhabi',
         link: 'https://efhas.net/',
         imgProdu: efhasImg,
+    },
+    {
+        iconUrl: bradbaby,
+        theme: 'btn-back-red',
+        name: 'Brad Baby',
+        description: 'Children Games Store - Country: Saudi Arabia',
+        link: 'https://57e4f1-64.myshopify.com/',
+        imgProdu: games,
+    },
+    {
+        iconUrl: tobadoo,
+        theme: 'btn-back-blue',
+        name: 'TOBADOO',
+        description: 'fashion women - Country: Saudi Arabia',
+        link: 'https://a25941-e4.myshopify.com/',
+        imgProdu: fashoin,
+    },
+    {
+        iconUrl: cafsap,
+        theme: 'btn-back-yellow',
+        name: 'Caf-Sap',
+        description: 'Software solutions company - Country: Saudi Arabia',
+        link: 'https://cafsap-sa.com/',
+        imgProdu: cafsaap,
     },
     {
         iconUrl: snapgram,

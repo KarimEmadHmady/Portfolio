@@ -31,6 +31,9 @@ import CV from './Karim Emad CV.pdf'
 import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
 import salla from './salla.svg'
+import tobadoo from './tobadoo.svg'
+import cafsap from './cafsap.svg'
+import bradbaby from './bradbaby.svg'
 
 
 
@@ -69,6 +72,8 @@ export {
     uda,
     udadigi,
     CV,
-    salla
-
+    salla,
+    tobadoo,
+    cafsap,
+    bradbaby
 }

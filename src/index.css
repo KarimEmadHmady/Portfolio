@@ -223,16 +223,17 @@ body:has(.card[data-color="green"]:hover) {
 
 .img-box {
   width: 90%;
-  height: 300px;
+  height: 950px;
   margin: 10px 0;
   border-radius: 5px;
   transition:  ease-in-out 0.5s;
-  filter: grayscale(100%);
+  background-position: top; 
+  background-size: cover;
   overflow: hidden;
   
 }
 .img-box img {
-  background-position: top; 
+  
   transition: ease-in-out 5s;
  }
 

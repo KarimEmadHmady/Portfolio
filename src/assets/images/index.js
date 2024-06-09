@@ -16,6 +16,9 @@ import ragaImg from './raga.png'
 import cashaImg from './casha.png'
 import sandImg from './sand.png'
 import cafSaIcon from './caf-sap.png'
+import fashoin from './fashoin.png'
+import games from './games.png'
+import cafsaap from './cafsap.png'
 
 
 export {
@@ -36,5 +39,8 @@ export {
     ragaImg,
     cashaImg,
     sandImg,
-    cafSaIcon
+    cafSaIcon,
+    fashoin,
+    games,
+    cafsaap
 }
