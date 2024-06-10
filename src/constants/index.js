@@ -10,7 +10,6 @@ import {
     imgProdu,
     eagleImg,
     marmorinoImg,
-    efhasImg,
     ragaImg,
     cashaImg,
     sandImg,
@@ -23,7 +22,6 @@ import {
 
 
 import {
-    car,
     contact,
     css,
     estate,
@@ -248,12 +246,12 @@ export const projects = [
         imgProdu: marmorinoImg,
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-green',
-        name: 'Efhas Company',
-        description: 'Home inspection company - Country: Dubai Abu Dhabi',
-        link: 'https://efhas.net/',
-        imgProdu: efhasImg,
+        iconUrl: summiz,
+        theme: 'btn-back-red',
+        name: 'Beba Shop ecommerce',
+        description: 'Travel supplies - Country: Saudi Arabia',
+        link: 'https://beba-shop168.myshopify.com/',
+        imgProdu: sandImg,
     },
     {
         iconUrl: bradbaby,
@@ -295,14 +293,7 @@ export const projects = [
         link: 'https://cashada.site/',
         imgProdu: cashaImg,
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-red',
-        name: 'Beba Shop ecommerce',
-        description: 'Travel supplies - Country: Saudi Arabia',
-        link: 'https://beba-shop168.myshopify.com/',
-        imgProdu: sandImg,
-    }
+
 ];
 
 
