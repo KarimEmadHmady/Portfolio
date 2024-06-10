@@ -162,7 +162,7 @@ export const experiences = [
         company_name: "Caf Sap",
         icon: cafSaIcon,
         iconBg: "#ffc107",
-        date: " Jan 2024 - May 2024  ",
+        date: " Oct 2023 - May 2024  ",
         points: [
             "'Caf Sap' is a leading Saudi IT company known for its dedication to excellence and innovation. The company encourages collaboration and provides opportunities for professional growth. It values both technical expertise and employee well-being, fostering a supportive work environment. Employees are inspired to contribute to impactful projects and are proud to work alongside talented colleagues who continuously push boundaries in the IT industry."
         ],
@@ -172,20 +172,9 @@ export const experiences = [
         company_name: "Wxora",
         icon: Wxora,
         iconBg: "#000",
-        date: " April 2023 - december 2023  ",
+        date: " Apr 2023 - July 2023  ",
         points: [
             "I am immensely grateful for the valuable opportunity I had to complete my internship at Wxora in 2023. During this period, I underwent comprehensive training in modern web development, gaining proficiency in technologies such as React, Next, and Express. The experience not only elevated my technical skills but also deepened my understanding of software engineering principles, clean code practices, and system design. The knowledge and expertise I acquired at Wxora have been instrumental in shaping my professional growth, and I look forward to applying these skills in future endeavors."
-        ],
-    },
-    {
-        title: "E-commerce Manager And Web Developer",
-        company_name: "Eagle",
-        icon: eagle,
-        iconBg: "#e5e5e5",
-        date: "Jan 2021 - April  2023",
-        points: [
-            "As a Website Developer and Ecommerce Manager at Eagle Company, I have had the privilege of contributing to the company's online presence and growth for the past three years. In my role, I served as the administrator for the company's online store, where I actively participated in the development and management of the e-commerce platform. My responsibilities included working on multiple platforms, including Shopify and System Odoo, to ensure seamless and efficient online operations.",
-            "During this tenure, I played a pivotal role in enhancing the functionality and user experience of the online store. This experience has not only deepened my expertise in website development but has also provided valuable insights into the intricacies of managing e-commerce platforms. The dynamic environment at Eagle Company has allowed me to evolve as a professional and contribute meaningfully to the success of the company's online ventures."
         ],
     },
     {
@@ -193,10 +182,21 @@ export const experiences = [
         company_name: "Tamken",
         icon: tamken,
         iconBg: "#a876ba",
-        date: "Jan 2022 - march 2022",
+        date: "Jan 2022 - Mar 2022",
         points: [
             "As a WordPress Developer at Tamken Company, I had the opportunity to contribute my skills and expertise in web development during a part-time engagement spanning five months. In this role, I focused on WordPress development, working on various projects to enhance the company's online presence.",
             "My responsibilities included leveraging the power of WordPress to create and customize websites, ensuring a seamless and visually appealing user experience. Through this part-time position, I honed my skills in WordPress development, gaining valuable hands-on experience in crafting responsive and feature-rich websites."
+        ],
+    },
+    {
+        title: "E-commerce Manager And Web Developer",
+        company_name: "Eagle",
+        icon: eagle,
+        iconBg: "#e5e5e5",
+        date: "Feb 2021 - Mar 2023",
+        points: [
+            "As a Website Developer and Ecommerce Manager at Eagle Company, I have had the privilege of contributing to the company's online presence and growth for the past three years. In my role, I served as the administrator for the company's online store, where I actively participated in the development and management of the e-commerce platform. My responsibilities included working on multiple platforms, including Shopify and System Odoo, to ensure seamless and efficient online operations.",
+            "During this tenure, I played a pivotal role in enhancing the functionality and user experience of the online store. This experience has not only deepened my expertise in website development but has also provided valuable insights into the intricacies of managing e-commerce platforms. The dynamic environment at Eagle Company has allowed me to evolve as a professional and contribute meaningfully to the success of the company's online ventures."
         ],
     },
     {
