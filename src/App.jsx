@@ -12,7 +12,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
-{/*           <Route
+         <Route
             path='*'
             element={
               <div>
@@ -24,7 +24,7 @@ const App = () => {
                 <a href='/'>Back to our site</a>
               </div>
             }
-          /> */}
+          />
         </Routes>
         <Footer />
       </Router>
