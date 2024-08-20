@@ -33,6 +33,8 @@ import salla from './salla.svg'
 import tobadoo from './tobadoo.svg'
 import cafsap from './cafsap.svg'
 import bradbaby from './bradbaby.svg'
+import stream from './Stream.png'
+import mamoicon from './mamorino.webp'
 
 
 
@@ -73,5 +75,7 @@ export {
     salla,
     tobadoo,
     cafsap,
-    bradbaby
+    bradbaby,
+    stream,
+    mamoicon
 }

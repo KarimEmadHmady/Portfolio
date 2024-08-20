@@ -1,23 +1,19 @@
 import { 
-    meta,
-    shopify,
-    starbucks,
-    tesla,
     Wxora,
     eagle,
     tamken,
     freeDigi,
-    imgProdu,
     eagleImg,
-    marmorinoImg,
     ragaImg,
     cashaImg,
     sandImg,
     cafSaIcon,
-    fashoin,
-    games,
-    cafsaap
-
+    cafsaap,
+    glad,
+    simple,
+    mamorino,
+    maaticon,
+    simpleicon
  } from "../assets/images";
 
 
@@ -43,16 +39,15 @@ import {
     snapgram,
     summiz,
     tailwindcss,
-    threads,
     typescript ,
     digi,
     udadigi,
     uda,
     CV,
     salla,
-    tobadoo,
     cafsap,
-    bradbaby
+    stream,
+    mamoicon
 
     
 } from "../assets/icons";
@@ -156,6 +151,16 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Full Stack Developer  ",
+        company_name: "Stream Creations",
+        icon: stream,
+        iconBg: "#0d74ae",
+        date: " July 2024 - Present ",
+        points: [
+            "As a Full Stack Developer at Stream Creations, I specialize in PHP , Javascript and WordPress development, with expertise in Shopify and the Salla platform. I design, build, and optimize web and e-commerce solutions, ensuring high performance and seamless user experiences. My role involves both frontend and back-end development, client collaboration, and ongoing support."
+        ],
+    },
+    {
         title: "Shopify Expert And salla Developer  ",
         company_name: "Caf Sap",
         icon: cafSaIcon,
@@ -229,21 +234,12 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-black',
-        name: 'EAGLE Company ',
-        description: 'Brand Eagle for men clothing - Country: Egypt' ,
-        link: 'https://www.eagle.com.eg/',
-        imgProdu: eagleImg,
-
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-red',
-        name: 'Ellen ecommerce',
-        description: 'fashion women - Country: Saudi Arabia',
-        link: 'https://3505fe-05.myshopify.com/',
-        imgProdu: marmorinoImg,
+        iconUrl: mamoicon,
+        theme: 'btn-back-blue',
+        name: 'Marmorino',
+        description: 'Wall paints - Country: Netherlands',
+        link: 'https://marmorino.nl/',
+        imgProdu: mamorino,
     },
     {
         iconUrl: summiz,
@@ -254,20 +250,29 @@ export const projects = [
         imgProdu: sandImg,
     },
     {
-        iconUrl: bradbaby,
-        theme: 'btn-back-red',
-        name: 'Brad Baby',
-        description: 'Children Games Store - Country: Saudi Arabia',
-        link: 'https://57e4f1-64.myshopify.com/',
-        imgProdu: games,
+        iconUrl: pricewise,
+        theme: 'btn-back-black',
+        name: 'EAGLE Company ',
+        description: 'Brand Eagle for men clothing - Country: Egypt' ,
+        link: 'https://www.eagle.com.eg/',
+        imgProdu: eagleImg,
+
     },
     {
-        iconUrl: tobadoo,
-        theme: 'btn-back-blue',
-        name: 'TOBADOO',
-        description: 'fashion women - Country: Saudi Arabia',
-        link: 'https://a25941-e4.myshopify.com/',
-        imgProdu: fashoin,
+        iconUrl: maaticon,
+        theme: 'btn-back-black',
+        name: 'Maat Tours',
+        description: 'Tourist trips - Country: Egypt',
+        link: 'https://maat-tours.netlify.app/',
+        imgProdu: glad,
+    },
+    {
+        iconUrl: simpleicon,
+        theme: 'btn-back-black',
+        name: 'Simple Furni',
+        description: 'Home furniture - Country: Saudi Arabia',
+        link: 'https://simplefurni.store/',
+        imgProdu: simple,
     },
     {
         iconUrl: cafsap,

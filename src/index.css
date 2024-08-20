@@ -223,7 +223,7 @@ body:has(.card[data-color="green"]:hover) {
 
 .img-box {
   width: 90%;
-  height: 950px;
+  height: auto;
   margin: 10px 0;
   border-radius: 5px;
   transition:  ease-in-out 0.5s;
