@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
-
+import Swal from 'sweetalert2'
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
@@ -20,55 +20,36 @@ const Contact = () => {
   const handleFocus = () => setCurrentAnimation("walk");
   const handleBlur = () => setCurrentAnimation("idle");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setCurrentAnimation("hit");
 
-    emailjs
-    .send(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-      {
-        from_name: form.name,
-        to_name: "Karim Emad",
-        from_email: form.email,
-        to_email: "karimemad2066@gmail.com",
-        message: form.message,
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "652d3158-5a54-4178-ab83-ebe68ec87e7c");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
       },
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-    )
-    .then(
-      () => {
-        setLoading(false);
-        showAlert({
-          show: true,
-          text: "Thank you for your message 😃",
-          type: "success",
-        });
-  
-        setTimeout(() => {
-          hideAlert(false);
-          setCurrentAnimation("idle");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+        Swal.fire({
+            title: "Success!",
+            text: "Message Sent Successfully!",
+            icon: "success",
+            iconColor: "gold",
+            confirmButtonColor: "gold",
           });
-        }, 3000);
-      },
-      (error) => {
-        setLoading(false);
-        console.error("EmailJS Error:", error.text);
-        setCurrentAnimation("idle");
-  
-        showAlert({
-          show: true,
-          text: "I didn't receive your message 😢",
-          type: "danger",
-        });
-      }
-    );
+          event.target.reset();
+    }
   };
 
   return (
@@ -80,7 +61,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={onSubmit}
           className='w-full flex flex-col gap-7 mt-14'
         >
           <label className='text-black-500 font-semibold'>
