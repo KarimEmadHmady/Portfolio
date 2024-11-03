@@ -3,7 +3,7 @@ import {
     eagle,
     tamken,
     freeDigi,
-    eagleImg,
+    system,
     ragaImg,
     cashaImg,
     sandImg,
@@ -13,7 +13,10 @@ import {
     simple,
     mamorino,
     maaticon,
-    simpleicon
+    simpleicon,
+    simpleDvi,
+    lacasa,
+    crispy
  } from "../assets/images";
 
 
@@ -47,7 +50,9 @@ import {
     salla,
     cafsap,
     stream,
-    mamoicon
+    mamoicon,
+    logolaca,
+    logoCrisp
 
     
 } from "../assets/icons";
@@ -233,32 +238,7 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    {
-        iconUrl: mamoicon,
-        theme: 'btn-back-blue',
-        name: 'Marmorino',
-        description: 'Wall paints - Country: Netherlands',
-        link: 'https://marmorino.nl/',
-        imgProdu: mamorino,
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-red',
-        name: 'Beba Shop ecommerce',
-        description: 'Travel supplies - Country: Saudi Arabia',
-        link: 'https://beba-shop168.myshopify.com/',
-        imgProdu: sandImg,
-    },
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-black',
-        name: 'EAGLE Company ',
-        description: 'Brand Eagle for men clothing - Country: Egypt' ,
-        link: 'https://www.eagle.com.eg/',
-        imgProdu: eagleImg,
-
-    },
-    {
+        {
         iconUrl: maaticon,
         theme: 'btn-back-black',
         name: 'Maat Tours',
@@ -272,15 +252,24 @@ export const projects = [
         name: 'Simple Furni',
         description: 'Home furniture - Country: Saudi Arabia',
         link: 'https://simplefurni.store/',
-        imgProdu: simple,
+        imgProdu: simpleDvi,
     },
     {
-        iconUrl: cafsap,
-        theme: 'btn-back-yellow',
-        name: 'Caf-Sap',
-        description: 'Software solutions company - Country: Saudi Arabia',
-        link: 'https://cafsap-sa.com/',
-        imgProdu: cafsaap,
+        iconUrl: mamoicon,
+        theme: 'btn-back-black',
+        name: 'Marmorino',
+        description: 'Wall paints - Country: Netherlands',
+        link: 'https://marmorino.nl/',
+        imgProdu: mamorino,
+    },
+
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-black',
+        name: 'Food system',
+        description: 'Food System For Company - Country: Egypt',
+        link: 'https://breakfast-stream.netlify.app/',
+        imgProdu: system,
     },
     {
         iconUrl: snapgram,
@@ -291,6 +280,25 @@ export const projects = [
         imgProdu: ragaImg,
     },
     {
+        iconUrl: pricewise,
+        theme: 'btn-back-black',
+        name: 'ihtmam Store',
+        description: 'Technology store - Country: Saudi Arabia' ,
+        link: 'https://ihtmam.com.sa/',
+        imgProdu: sandImg,
+
+    },
+
+
+    {
+        iconUrl: cafsap,
+        theme: 'btn-back-black',
+        name: 'jouf-majles',
+        description: 'Charity shop - Country: Saudi Arabia',
+        link: 'https://jouf-majles.com/',
+        imgProdu: simple,
+    },
+    {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'cashada ecommerce',
@@ -298,6 +306,26 @@ export const projects = [
         link: 'https://cashada.site/',
         imgProdu: cashaImg,
     },
+
+    {
+        iconUrl: logolaca,
+        theme: 'btn-back-black',
+        name: 'lascala',
+        description: 'Restaurant menu - Country: Egypt',
+        link: 'https://lascalamenu.com/',
+        imgProdu: lacasa,
+    },
+
+
+    {
+        iconUrl: logoCrisp,
+        theme: 'btn-back-black',
+        name: 'CrispyMeals',
+        description: 'Restaurant menu - Country: Egypt',
+        link: 'https://crispymeals-eg.com/',
+        imgProdu: crispy,
+    },
+
 
 ];
 

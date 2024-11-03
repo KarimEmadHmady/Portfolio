@@ -17,9 +17,9 @@ import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import estate from './estate.svg'
-import pricewise from './pricewise.svg'
+import pricewise from './ihtma.avif'
 import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
+import summiz from './str.png'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
@@ -31,10 +31,12 @@ import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
 import salla from './salla.svg'
 import tobadoo from './tobadoo.svg'
-import cafsap from './cafsap.svg'
+import cafsap from './goof.webp'
 import bradbaby from './bradbaby.svg'
 import stream from './Stream.png'
 import mamoicon from './mamorino.webp'
+import logolaca from './logolaca.png'
+import logoCrisp from './logocrispy.avif'
 
 
 
@@ -77,5 +79,7 @@ export {
     cafsap,
     bradbaby,
     stream,
-    mamoicon
+    mamoicon,
+    logolaca,
+    logoCrisp
 }
