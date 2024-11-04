@@ -241,7 +241,7 @@ export const projects = [
         {
         iconUrl: maaticon,
         theme: 'btn-back-black',
-        name: 'Maat Tours',
+        name: 'Maat Tours', 
         description: 'Tourist trips - Country: Egypt',
         link: 'https://maat-tours.netlify.app/',
         imgProdu: glad,
@@ -255,6 +255,14 @@ export const projects = [
         imgProdu: simpleDvi,
     },
     {
+        iconUrl: summiz,
+        theme: 'btn-back-black',
+        name: 'Food system',
+        description: 'Food System For Company - Country: Egypt',
+        link: 'https://breakfast-stream.netlify.app/',
+        imgProdu: system,
+    },
+    {
         iconUrl: mamoicon,
         theme: 'btn-back-black',
         name: 'Marmorino',
@@ -263,14 +271,7 @@ export const projects = [
         imgProdu: mamorino,
     },
 
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-black',
-        name: 'Food system',
-        description: 'Food System For Company - Country: Egypt',
-        link: 'https://breakfast-stream.netlify.app/',
-        imgProdu: system,
-    },
+
     {
         iconUrl: snapgram,
         theme: 'btn-back-black',
