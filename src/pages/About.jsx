@@ -11,7 +11,7 @@ import { experiences, skills, CV  } from "../constants";
 import 'react-vertical-timeline-component/style.min.css';
 import { NavLink } from "react-router-dom";
 
-import { uda, udadigi } from "../assets/icons";
+import { uda, udadigi , xora } from "../assets/icons";
 
 
 
@@ -87,6 +87,7 @@ const About = () => {
                                         </div>
                                     </div>
                                     <img src={udadigi} class="img-what-i-do"  />
+                                    <img src={xora} class="img-what-i-do"  />
                                 </div>
 
                                 <div class="tex-what-i-do" >

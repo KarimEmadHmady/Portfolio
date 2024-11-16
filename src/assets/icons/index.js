@@ -29,6 +29,7 @@ import digi from './digi.svg'
 import CV from './Karim Emad CV.pdf'
 import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
+import xora from './web.jfif'
 import salla from './salla.svg'
 import tobadoo from './tobadoo.svg'
 import cafsap from './goof.webp'
@@ -81,5 +82,6 @@ export {
     stream,
     mamoicon,
     logolaca,
-    logoCrisp
+    logoCrisp,
+    xora
 }
