@@ -25,6 +25,8 @@ import simpleicon from './simple-icon.png'
 import simpleDvi from './simple3Div.png'
 import lacasa from './lacas.png'
 import crispy from './crispyy.png'
+import streamweb from './streamweb.png'  
+import witchweb from './witchweb.png'
 
 
 
@@ -55,5 +57,7 @@ export {
     simpleicon ,
     simpleDvi,
     lacasa,
-    crispy
+    crispy , 
+    witchweb , 
+    streamweb
 }

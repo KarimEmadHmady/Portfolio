@@ -9,15 +9,13 @@ import {
     cashaImg,
     sandImg,
     cafSaIcon,
-    cafsaap,
     glad,
-    simple,
     mamorino,
     maaticon,
-    simpleicon,
-    simpleDvi,
     lacasa,
-    crispy
+    crispy , 
+    witchweb , 
+    streamweb
  } from "../assets/images";
 
 
@@ -49,11 +47,12 @@ import {
     uda,
     CV,
     salla,
-    cafsap,
     stream,
     mamoicon,
     logolaca,
-    logoCrisp
+    logoCrisp,
+    tailwind, 
+    vivid
 
     
 } from "../assets/icons";
@@ -104,6 +103,11 @@ export const skills = [
     {
         imageUrl: css,
         name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwind,
+        name: "tailwind css",
         type: "Frontend",
     },
     {
@@ -163,7 +167,7 @@ export const experiences = [
         iconBg: "#0d74ae",
         date: " July 2024 - Present ",
         points: [
-            "As a Full Stack Developer at Stream Creations, I specialize in PHP , Javascript and WordPress development, with expertise in Shopify and the Salla platform. I design, build, and optimize web and e-commerce solutions, ensuring high performance and seamless user experiences. My role involves both frontend and back-end development, client collaboration, and ongoing support."
+            "As a Full Stack Developer at Stream Creations, I specialize in MERN Stack (MongoDB, Express.js, React, Node.js) development, along with expertise in PHP, WordPress, Shopify, and the Salla platform. I design, build, and optimize web and e-commerce solutions, ensuring high performance and seamless user experiences. My role encompasses both front-end and back-end development, client collaboration, and providing ongoing support for scalable and efficient applications."
         ],
     },
     {
@@ -248,18 +252,26 @@ export const projects = [
         imgProdu: glad,
     },
     {
-        iconUrl: simpleicon,
+        iconUrl: summiz,
         theme: 'btn-back-black',
-        name: 'Simple Furni',
-        description: 'Home furniture - Country: Saudi Arabia',
-        link: 'https://simplefurni.store/',
-        imgProdu: simpleDvi,
+        name: 'Stream Creations',
+        description: 'Marketing Advertising - Country: Egypt',
+        link: 'https://streamcreations.com/',
+        imgProdu: streamweb,  
+    },
+    {
+        iconUrl: vivid,
+        theme: 'btn-back-black', 
+        name: 'VividHour',
+        description: 'E-commerce Watches - Country: Egypt',
+        link: '#',
+        imgProdu: witchweb,
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-black',
-        name: 'Food system',
-        description: 'Food System For Company - Country: Egypt',
+        name: 'Breakfast system',
+        description: 'Breakfast order system for employees - Country: Egypt',
         link: 'https://breakfast-stream.netlify.app/',
         imgProdu: system,
     },
@@ -292,14 +304,7 @@ export const projects = [
     },
 
 
-    {
-        iconUrl: cafsap,
-        theme: 'btn-back-black',
-        name: 'jouf-majles',
-        description: 'Charity shop - Country: Saudi Arabia',
-        link: 'https://jouf-majles.com/',
-        imgProdu: simple,
-    },
+ 
     {
         iconUrl: estate,
         theme: 'btn-back-black',

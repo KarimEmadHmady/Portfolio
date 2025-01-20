@@ -30,6 +30,7 @@ import CV from './Karim Emad CV.pdf'
 import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
 import xora from './web.jfif'
+import stramcertive from './streamcertivi.jpg'
 import salla from './salla.svg'
 import tobadoo from './tobadoo.svg'
 import cafsap from './goof.webp'
@@ -38,6 +39,9 @@ import stream from './Stream.png'
 import mamoicon from './mamorino.webp'
 import logolaca from './logolaca.png'
 import logoCrisp from './logocrispy.avif'
+import tailwind  from './tailwCss.svg'
+import vivid from './vivid.png'
+
 
 
 
@@ -83,5 +87,8 @@ export {
     mamoicon,
     logolaca,
     logoCrisp,
-    xora
+    xora , 
+    tailwind , 
+    stramcertive , 
+    vivid
 }

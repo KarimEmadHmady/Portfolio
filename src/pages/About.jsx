@@ -11,7 +11,7 @@ import { experiences, skills, CV  } from "../constants";
 import 'react-vertical-timeline-component/style.min.css';
 import { NavLink } from "react-router-dom";
 
-import { uda, udadigi , xora } from "../assets/icons";
+import { uda, udadigi , xora , stramcertive } from "../assets/icons";
 
 
 
@@ -74,19 +74,19 @@ const About = () => {
                                             <i class="fa-regular fa-file-code"></i>
                                             <div class="mt-5 flex flex-col gap-3 text-slate-500">
                                                 <h3 className="subhead-text blue-gradient_text font-semibold drop-shadow">Development</h3>
-                                                "Website programming and development is very important
-                                                in our time, as companies and project owners depend on
-                                                it to improve their services or present their products
-                                                to the public and appear to the customer in a more
-                                                professional way, and for this I use the most popular
-                                                programming languages in the web world to develop sites
-                                                such as HTML CSS JAVASCRIPT with the React framework, it
-                                                is Works dynamically within websites for a fast and
-                                                interactive user interface."
+                                                Website programming and development play a crucial role in today's digital landscape.
+                                                 Businesses and project owners rely on it to enhance their services, 
+                                                 showcase their products, and present a more professional image to customers. 
+                                                 To achieve this, I utilize some of the most popular and efficient programming languages in web development, 
+                                                 including HTML, CSS, and JavaScript, along with the React framework for building fast, dynamic, 
+                                                 and interactive user interfaces. Additionally, 
+                                                 I specialize in the MERN stack (MongoDB, Express.js, React, and Node.js), 
+                                                 enabling the creation of powerful, scalable full-stack applications that deliver seamless user experiences and robust functionality.
                                             </div>
                                         </div>
                                     </div>
                                     <img src={udadigi} class="img-what-i-do"  />
+                                    <img src={stramcertive} class="img-what-i-do"  />
                                     <img src={xora} class="img-what-i-do"  />
                                 </div>
 
