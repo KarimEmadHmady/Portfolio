@@ -276,6 +276,14 @@ export const projects = [
         imgProdu: system,
     },
     {
+        iconUrl: summiz,
+        theme: 'btn-back-black',
+        name: 'Time Stream',
+        description: ' Tracks employee check-ins and check-outs [Works indoors only] - Country: Egypt',
+        link: 'https://time-stream-creations.vercel.app/',
+        imgProdu: crispy,
+    },
+    {
         iconUrl: mamoicon,
         theme: 'btn-back-black',
         name: 'Marmorino',
@@ -324,14 +332,7 @@ export const projects = [
     },
 
 
-    {
-        iconUrl: logoCrisp,
-        theme: 'btn-back-black',
-        name: 'CrispyMeals',
-        description: 'Restaurant menu - Country: Egypt',
-        link: 'https://crispymeals-eg.com/',
-        imgProdu: crispy,
-    },
+
 
 
 ];
