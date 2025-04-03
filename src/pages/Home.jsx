@@ -48,11 +48,12 @@
 //       </div>
 
 //       <Canvas
-//         className={`w-full h-screen bg-transparent ${
-//           isRotating ? "cursor-grabbing" : "cursor-grab"
-//         }`}
-//         camera={{ near: 0.1, far: 1000 }}
-//       >
+// className={`w-full h-screen bg-transparent ${
+//   isRotating ? "cursor-grabbing" : "cursor-grab"
+// }`}
+// camera={{ near: 0.1, far: 1000 }}
+// style={{ touchAction: "none" }}
+// >
 //         <Suspense fallback={<Loader />}>
 //           <directionalLight position={[3, 1, 1]} intensity={2} />
 //           <ambientLight intensity={0.5} />
@@ -105,7 +106,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useState, useEffect } from "react";
 
-/* import sakura from "../assets/sakura.mp3"; */ // this if add sound
 import { HomeInfo, Loader } from "../components";
 import { Bird, Island, Plane, Sky } from "../models";
 
@@ -163,11 +163,12 @@ const Home = () => {
       </div>
 
       <Canvas
-        className={`w-full h-screen bg-transparent ${
-          isRotating ? "cursor-grabbing" : "cursor-grab"
-        }`}
-        camera={{ near: 0.1, far: 1000 }}
-      >
+className={`w-full h-screen bg-transparent ${
+  isRotating ? "cursor-grabbing" : "cursor-grab"
+}`}
+camera={{ near: 0.1, far: 1000 }}
+style={{ touchAction: "none" }}
+>
         <Suspense fallback={<Loader />}>
           <directionalLight position={[3, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />

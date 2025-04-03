@@ -285,12 +285,15 @@ body:has(.card[data-color="green"]:hover) {
     padding-right: 1rem;
     
   }
+
   .footer-container{
     justify-content: center;
     font-size: 14px;
+    gap: 10px;
   }
   .footer-container p {
     text-align: center;
+    font-size: 12px;
   }
   .title-on-proj-page{
     text-align: center;
@@ -301,6 +304,9 @@ body:has(.card[data-color="green"]:hover) {
   }
   .header-title-of-proje{
     font-size: 21px;
+  }
+  .footer {
+    padding: 5px;
   }
 
 }
