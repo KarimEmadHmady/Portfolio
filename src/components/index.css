@@ -1,54 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200;300;400;500&family=Rubik+Maps&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@200;300;400;500&family=Rubik+Maps&display=swap");
 
-/* header nav a {
-    font-weight: bold;
-    padding: 3px 5px;
-    background-color: #eee;
-    border-radius:  309px 18px 200px 165px;
-    font-family: Kalnia;
-} */
-/* From Uiverse.io by zjssun */ 
-header nav a  {
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: none;
-    background: transparent;
-    cursor: pointer;
-    box-shadow: transparent;
-    border: 1px solid #4b5563 ;
-    transition: 0.5s ease;
-    user-select: none;
-    opacity: 1;
+header nav a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #4b5563;
+  transition: 0.5s ease;
+  user-select: none;
+  opacity: 1;
+}
+
+header nav a:hover {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+.a-fucase:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+@media (max-width: 768px) {
+  .header-nav-a-container {
+    gap: 5px !important;
   }
-  
-  header nav a:hover
-   {
-    color: #ffffff;
-    background: #008cff;
-    border: 1px solid #008cff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-      0 0 100px #008cff;
+  header nav a {
+    padding: 2px 10px;
+    font-size: 13px;
   }
-  .a-fucase:focus {
-    color: #ffffff;
-    background: #008cff;
-    border: 1px solid #008cff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-      0 0 100px #008cff;
-  }
-  
-  @media (max-width: 768px) {
-    .header-nav-a-container {
-        gap: 5px !important;
-    }
-    header nav a {
-        padding: 2px 10px;
-        font-size: 13px;
-    }
-  }
+}
