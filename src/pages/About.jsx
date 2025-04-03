@@ -27,13 +27,13 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Welcome! I'm Karim, a seasoned software engineer with a specialization
-          in web development. I bring a wealth of experience to the table, adept
-          at creating dynamic and visually appealing websites tailored to
-          elevate your project or company. My expertise lies in selecting the
-          optimal design and system that aligns seamlessly with your unique
-          product or service. Let's collaborate to bring your digital vision to
-          life!
+        Hello, I’m Karim, a passionate Software Engineer with over 4 years of experience in web development.
+        I specialize in crafting dynamic and user-centric applications,
+        with 1.5 years of expertise in React and Next.js for building scalable front-end solutions.
+        On the back end, I have 1 year of experience with Node.js and Express.js,
+        delivering robust and efficient server-side systems. Proficient in JavaScript,
+        I’m committed to continuous learning and staying up-to-date 
+        with modern technologies to create seamless digital experiences that exceed user expectations.
         </p>
       </div>
 
@@ -66,7 +66,7 @@ const About = () => {
       </a>
 
       <div className="what-i-do">
-        <h3 className="subhead-text blue-gradient_text ">What I Do</h3>
+        <h3 className="subhead-text blue-gradient_text ">Empowering Learning Journey</h3>
         <div className="what-i-do-contanar">
           <div class="tex-what-i-do">
             <div>
@@ -74,7 +74,7 @@ const About = () => {
                 <i class="fa-regular fa-file-code"></i>
                 <div class="mt-5 flex flex-col gap-3 text-slate-500">
                   <h3 className="subhead-text blue-gradient_text font-semibold drop-shadow">
-                    Development
+                  Certificates 📜
                   </h3>
                   Website programming and development play a crucial role in
                   today's digital landscape. Businesses and project owners rely
@@ -94,29 +94,9 @@ const About = () => {
             <img src={udadigi} class="img-what-i-do" />
             <img src={stramcertive} class="img-what-i-do" />
             <img src={xora} class="img-what-i-do" />
-          </div>
-
-          <div class="tex-what-i-do">
-            <div class="">
-              <div class="">
-                <i class="fa-solid fa-bullhorn"></i>
-                <div class="mt-5 flex flex-col gap-3 text-slate-500">
-                  <h3 className="subhead-text blue-gradient_text font-semibold drop-shadow">
-                    Marketing
-                  </h3>
-                  "E-marketing means using digital channels such as websites,
-                  social media, email, and mobile device applications to promote
-                  products or services. I will provide you with a marketing
-                  plan, a strategy to achieve the plan and goals accurately, a
-                  full study of your market, a study and analysis of your
-                  competitors, identifying their strengths and weaknesses and
-                  focusing on a plan to develop your project as quickly as
-                  possible, and analyzing the numbers."
-                </div>
-              </div>
-            </div>
             <img src={uda} class="img-what-i-do " />
           </div>
+
         </div>
       </div>
 

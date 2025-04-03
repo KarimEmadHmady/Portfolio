@@ -62,6 +62,41 @@ const Projects = () => {
                   className="w-4 h-4 object-contain"
                 />
               </div>
+              {project.demo && (
+                <div className="mt-0 flex items-center gap-2  text-sm">
+                  <Link
+                    to={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-black"
+                  >
+                    Code Link
+                  </Link>
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain"
+                  />
+                </div>
+              )}
+                            {project.codeback && (
+                <div className="mt-0 flex items-center gap-2  text-sm">
+                  <Link
+                    to={project.codeback}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-black"
+                  >
+                    Backend code 
+                  </Link>
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain"
+                  />
+                </div>
+              )}
+
             </div>
           </div>
         ))}
