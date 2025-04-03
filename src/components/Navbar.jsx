@@ -12,14 +12,14 @@ const Navbar = () => {
           KE
         </span>
       </NavLink>
-      <nav className='flex text-lg gap-7 font-medium'>
-        <NavLink to='/about' className={(  { isActive }) => isActive ? "text-blue-600"   : "text-black"  } >
+      <nav className='flex text-lg gap-7 font-medium header-nav-a-container'>
+        <NavLink to='/about' className={ (  { isActive }) => isActive ? "text-white "   : "text-gray-600 "   } >
           About
         </NavLink>
-        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-white" : "text-gray-600"}>
           Projects
         </NavLink>
-        <NavLink to='/contact' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+        <NavLink to='/contact' className={({ isActive }) => isActive ? "text-white"  : "text-gray-600 "}>
           Contact
         </NavLink>
       </nav>
