@@ -70,7 +70,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="font-semibold text-black"
                   >
-                    Code Link
+                    frontend code
                   </Link>
                   <img
                     src={arrow}
