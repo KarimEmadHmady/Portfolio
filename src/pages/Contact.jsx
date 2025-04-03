@@ -4,7 +4,7 @@ import { Suspense, useRef, useState } from "react";
 import Swal from 'sweetalert2'
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
-import { Alert, Footer, Loader } from "../components";
+import { Alert, Loader } from "../components";
 
 const Contact = () => {
   const formRef = useRef();
@@ -147,7 +147,6 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
-      <Footer />
     </section>
   );
 };
