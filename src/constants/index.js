@@ -268,8 +268,8 @@ export const projects = [
     description: "Breakfast order system for employees - Country: Egypt",
     link: "https://breakfast-stream.netlify.app/",
     imgProdu: system,
-    demo: "",
-    codeback: ""
+    demo: "https://github.com/KarimEmadHmady/frontend-bf-stream",
+    codeback: "https://github.com/KarimEmadHmady/backend-bf-stream"
   },
 
   {
