@@ -27,6 +27,7 @@ import lacasa from './lacas.png'
 import crispy from './crispyy.png'
 import streamweb from './streamweb.png'  
 import witchweb from './witchweb.png'
+import leave from './leave.png'
 
 
 
@@ -59,5 +60,6 @@ export {
     lacasa,
     crispy , 
     witchweb , 
-    streamweb
+    streamweb,
+    leave
 }

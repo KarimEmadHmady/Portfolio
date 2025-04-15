@@ -14,6 +14,7 @@ import {
   crispy,
   witchweb,
   streamweb,
+  leave
 } from "../assets/images";
 
 import {
@@ -228,6 +229,16 @@ export const projects = [
     imgProdu: witchweb,
     demo: "https://github.com/KarimEmadHmady/frontendsystem",
     codeback: "https://github.com/KarimEmadHmady/backendsystem"
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-black",
+    name: "Leave System",
+    description: "System Management - Country: Egypt",
+    link: "https://leavestream.netlify.app/",
+    imgProdu: leave,
+    demo: "https://github.com/KarimEmadHmady/leave-management-frontend",
+    codeback: "https://github.com/KarimEmadHmady/leave-management-backend"
   },
   {
     iconUrl: maaticon,
