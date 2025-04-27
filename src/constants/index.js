@@ -282,6 +282,16 @@ export const projects = [
     demo: "https://github.com/KarimEmadHmady/frontend-bf-stream",
     codeback: "https://github.com/KarimEmadHmady/backend-bf-stream"
   },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-black",
+    name: "Stream Creations",
+    description: "Marketing Agency - Country: Egypt",
+    link: "https://streamcreations.com/",
+    imgProdu: streamweb,
+    demo: "",
+    codeback: ""
+  },
 
   {
     iconUrl: mamoicon,
@@ -324,15 +334,6 @@ export const projects = [
     demo: "",
     codeback: ""
   },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-black",
-    name: "Stream Creations",
-    description: "Marketing Advertising - Country: Egypt",
-    link: "https://streamcreations.com/",
-    imgProdu: streamweb,
-    demo: "",
-    codeback: ""
-  },
+
 
 ];
