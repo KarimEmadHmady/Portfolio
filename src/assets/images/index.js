@@ -28,6 +28,7 @@ import crispy from './crispyy.png'
 import streamweb from './streamweb.png'  
 import witchweb from './witchweb.png'
 import leave from './leave.png'
+import menu from './menu.png'
 
 
 
@@ -61,5 +62,6 @@ export {
     crispy , 
     witchweb , 
     streamweb,
-    leave
+    leave,
+    menu
 }

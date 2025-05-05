@@ -41,6 +41,7 @@ import logolaca from './logolaca.png'
 import logoCrisp from './logocrispy.avif'
 import tailwind  from './tailwCss.svg'
 import vivid from './vivid.png'
+import menudido from './menuu.png'
 
 
 
@@ -90,5 +91,6 @@ export {
     xora , 
     tailwind , 
     stramcertive , 
-    vivid
+    vivid,
+    menudido
 }

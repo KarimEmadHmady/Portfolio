@@ -14,7 +14,8 @@ import {
   crispy,
   witchweb,
   streamweb,
-  leave
+  leave,
+  menu
 } from "../assets/images";
 
 import {
@@ -50,6 +51,7 @@ import {
   logolaca,
   tailwind,
   vivid,
+  menudido
 } from "../assets/icons";
 
 export { uda, udadigi, CV };
@@ -229,6 +231,16 @@ export const projects = [
     imgProdu: witchweb,
     demo: "https://github.com/KarimEmadHmady/frontendsystem",
     codeback: "https://github.com/KarimEmadHmady/backendsystem"
+  },
+  {
+    iconUrl: menudido,
+    theme: "btn-back-black",
+    name: "Digital QR Cone Menu",
+    description: "Digital QR Cone Menu || Menu, customer reviews and a complete control panel - Country: Egypt",
+    link: "https://didos-menu.netlify.app",
+    imgProdu: menu,
+    demo: "https://github.com/KarimEmadHmady/Fronrend-qr-code",
+    codeback: "https://github.com/KarimEmadHmady/backend-qr-code"
   },
   {
     iconUrl: summiz,
