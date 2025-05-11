@@ -235,7 +235,7 @@ export const projects = [
   {
     iconUrl: menudido,
     theme: "btn-back-black",
-    name: "Digital QR Cone Menu",
+    name: "Digital QR Code Menu",
     description: "Digital QR Cone Menu || Menu, customer reviews and a complete control panel - Country: Egypt",
     link: "https://didos-menu.netlify.app",
     imgProdu: menu,
