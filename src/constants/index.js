@@ -154,7 +154,7 @@ export const experiences = [
     company_name: "Stream Creations",
     icon: stream,
     iconBg: "#0d74ae",
-    date: " July 2024 - Present ",
+    date: " July 2024 - May 2025 ",
     points: [
       "As a Full Stack Developer at Stream Creations, I specialize in MERN Stack (MongoDB, Express.js, React, Node.js) development, along with expertise in PHP, WordPress, Shopify, and the Salla platform. I design, build, and optimize web and e-commerce solutions, ensuring high performance and seamless user experiences. My role encompasses both front-end and back-end development, client collaboration, and providing ongoing support for scalable and efficient applications.",
     ],
