@@ -40,9 +40,14 @@ import mamoicon from './mamorino.webp'
 import logolaca from './logolaca.png'
 import logoCrisp from './logocrispy.avif'
 import tailwind  from './tailwCss.svg'
-import vivid from './vivid.png'
 import menudido from './menuu.png'
-
+import uwd from './uwd-removebg-preview.png'
+import sql from './sql.png'
+import qrx from './main_logo-removebg-preview.png'
+import ajad from './ajad.png'
+import mg from './mg.png'
+import elaia from './elaia.png'
+import coach from './coach.png'
 
 
 
@@ -91,6 +96,12 @@ export {
     xora , 
     tailwind , 
     stramcertive , 
-    vivid,
-    menudido
+    menudido,
+    uwd,
+    sql,
+    qrx,
+    ajad,
+    mg,
+    elaia,
+    coach
 }

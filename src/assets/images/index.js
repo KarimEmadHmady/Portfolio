@@ -26,9 +26,13 @@ import simpleDvi from './simple3Div.png'
 import lacasa from './lacas.png'
 import crispy from './crispyy.png'
 import streamweb from './streamweb.png'  
-import witchweb from './witchweb.png'
+import qrxdivi from './qrx.png'
 import leave from './leave.png'
 import menu from './menu.png'
+import elaiaImage from './elaia.png'
+import ajadImage from './ajad.png'
+import mgImage from './mg.png'
+import gymImage from './gym.png'
 
 
 
@@ -60,8 +64,12 @@ export {
     simpleDvi,
     lacasa,
     crispy , 
-    witchweb , 
+    qrxdivi,
     streamweb,
     leave,
-    menu
+    menu,
+    elaiaImage,
+    ajadImage,
+    mgImage,
+    gymImage
 }

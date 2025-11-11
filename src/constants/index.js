@@ -2,26 +2,23 @@ import {
   Wxora,
   eagle,
   tamken,
-  system,
-  ragaImg,
-  cashaImg,
-  sandImg,
   cafSaIcon,
   glad,
-  mamorino,
   maaticon,
   lacasa,
-  crispy,
-  witchweb,
   streamweb,
+  menu,
+  qrxdivi,
   leave,
-  menu
+  elaiaImage,
+  ajadImage,
+  mgImage,
+  gymImage
 } from "../assets/images";
 
 import {
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -33,25 +30,27 @@ import {
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
-  snapgram,
   summiz,
   tailwindcss,
   typescript,
-  digi,
   udadigi,
   uda,
   CV,
   salla,
   stream,
-  mamoicon,
   logolaca,
   tailwind,
-  vivid,
-  menudido
+  menudido,
+  uwd,
+  sql,
+  qrx,
+  ajad,
+  mg,
+  elaia,
+  coach
 } from "../assets/icons";
 
 export { uda, udadigi, CV };
@@ -89,6 +88,11 @@ export const skills = [
   {
     imageUrl: mongodb,
     name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: sql,
+    name: "SQL",
     type: "Database",
   },
   {
@@ -149,6 +153,16 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "Full Stack Developer  ",
+    company_name: "UWD",
+    icon: uwd,
+    iconBg: "#15acb161",
+    date: " June  2025 - Present ",
+    points: [
+      "As a Full Stack Developer at UWD, I design, develop, and maintain a variety of advanced web and system solutions using modern technologies. My expertise spans the MERN Stack (MongoDB, Express.js, React, Node.js), PHP, SQL, and WordPress, enabling me to build scalable, high-performance systems — from dynamic websites to fully integrated business and management platforms. My work covers both front-end and back-end development, database architecture, and API integrations, ensuring seamless functionality and an exceptional user experience. I also develop custom systems tailored to specific business needs, focusing on efficiency, scalability, and reliability. I collaborate closely with clients and cross-functional teams to deliver secure, efficient, and future-ready solutions that drive digital transformation and business growth.",
+    ],
+  },
   {
     title: "Full Stack Developer  ",
     company_name: "Stream Creations",
@@ -223,76 +237,34 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: vivid,
+    iconUrl: qrx,
     theme: "btn-back-black",
-    name: "TurboTech",
-    description: "System Management || Distributor Management - Country: Egypt",
-    link: "https://system-v1.netlify.app",
-    imgProdu: witchweb,
-    demo: "https://github.com/KarimEmadHmady/frontendsystem",
-    codeback: "https://github.com/KarimEmadHmady/backendsystem"
+    name: "QRX",
+    description: "SaaS Platform for Digital Menu & Delivery Management ",
+    link: "https://qrx-menu.vercel.app/",
+    imgProdu: qrxdivi,
+    demo: "",
+    codeback: ""
+  },
+  {
+    iconUrl: coach,
+    theme: "btn-back-black",
+    name: "elCoach GYM",
+    description: "Complete gym management ٍSystem and membership control",
+    link: "https://coach-gym-v1.vercel.app/ar",
+    imgProdu: gymImage,
+    demo: "",
+    codeback: ""
   },
   {
     iconUrl: menudido,
     theme: "btn-back-black",
     name: "Digital QR Code Menu",
-    description: "Digital QR Cone Menu || Menu, customer reviews and a complete control panel - Country: Egypt",
-    link: "https://didos-menu.netlify.app",
+    description: "Digital QR Cone Menu || Menu, customer reviews and a complete control panel ",
+    link: "https://qrx-menu.vercel.app/didos",
     imgProdu: menu,
-    demo: "https://github.com/KarimEmadHmady/Fronrend-qr-code",
-    codeback: "https://github.com/KarimEmadHmady/backend-qr-code"
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-black",
-    name: "Leave System",
-    description: "System Management || Human resources Management and employee leave system - Country: Egypt",
-    link: "https://leavestream.netlify.app/",
-    imgProdu: leave,
-    demo: "https://github.com/KarimEmadHmady/leave-management-frontend",
-    codeback: "https://github.com/KarimEmadHmady/leave-management-backend"
-  },
-  {
-    iconUrl: maaticon,
-    theme: "btn-back-black",
-    name: "Maat Tours",
-    description: "Tourist trips - Country: Egypt",
-    link: "https://maat-tours.netlify.app/",
-    imgProdu: glad,
-    demo: "https://github.com/KarimEmadHmady/Maat-Tours",
-    codeback: ""
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-black",
-    name: "Time Stream",
-    description:
-      " Tracks employee check-ins and check-outs [Works indoors only] - Country: Egypt",
-    link: "https://time-stream-creations.vercel.app/",
-    imgProdu: crispy,
-    demo: "https://github.com/KarimEmadHmady/frontend_timestream",
-    codeback: "https://github.com/KarimEmadHmady/backend_timestream"
-  },
-  {
-    iconUrl: logolaca,
-    theme: "btn-back-black",
-    name: "Dar Zayed",
-    description: "Handmade products - Country: Egypt",
-    link: "https://darzayed-eg.com/",
-    imgProdu: lacasa,
     demo: "",
     codeback: ""
-  },
-
-  {
-    iconUrl: summiz,
-    theme: "btn-back-black",
-    name: "Breakfast system",
-    description: "Breakfast order system for employees - Country: Egypt",
-    link: "https://breakfast-stream.netlify.app/",
-    imgProdu: system,
-    demo: "https://github.com/KarimEmadHmady/frontend-bf-stream",
-    codeback: "https://github.com/KarimEmadHmady/backend-bf-stream"
   },
   {
     iconUrl: summiz,
@@ -306,43 +278,63 @@ export const projects = [
   },
 
   {
-    iconUrl: mamoicon,
+    iconUrl: uwd,
     theme: "btn-back-black",
-    name: "Marmorino",
-    description: "Wall paints - Country: Netherlands",
-    link: "https://marmorino.nl/",
-    imgProdu: mamorino,
+    name: "HR System and leaves Manages ",
+    description: "Complete HR management and leave tracking system with approvals, employee records, and email notifications ",
+    link: "https://hr-system-uwd.netlify.app",
+    imgProdu: leave,
+    demo: "",
+    codeback: ""
+  },
+  {
+    iconUrl: mg,
+    theme: "btn-back-black",
+    name: "MG Development",
+    description: "Smart property management and real estate marketing",
+    link: "https://mg.com.eg/",
+    imgProdu: mgImage,
+    demo: "",
+    codeback: ""
+  },
+  {
+    iconUrl: logolaca,
+    theme: "btn-back-black",
+    name: "Dar Zayed",
+    description: "Handmade products - Country: Egypt",
+    link: "https://darzayed-eg.com/",
+    imgProdu: lacasa,
+    demo: "",
+    codeback: ""
+  },
+  {
+    iconUrl: elaia,
+    theme: "btn-back-black",
+    name: "elaia ",
+    description: "Modern luxury residential compound with facilities",
+    link: "https://ajaddevelopments.com/elaia",
+    imgProdu: elaiaImage,
     demo: "",
     codeback: ""
   },
 
   {
-    iconUrl: snapgram,
+    iconUrl: ajad,
     theme: "btn-back-black",
-    name: "ROASTINGART ecommerce",
-    description: "Coffee of all kinds - Country: Saudi Arabia",
-    link: "https://roastingart.com/ar/",
-    imgProdu: ragaImg,
+    name: "Ajad Development",
+    description: "Professional real estate sales and investment solutions",
+    link: "https://ajaddevelopments.com",
+    imgProdu: ajadImage,
     demo: "",
     codeback: ""
   },
   {
-    iconUrl: pricewise,
+    iconUrl: maaticon,
     theme: "btn-back-black",
-    name: "ihtmam Store",
-    description: "Technology store - Country: Saudi Arabia",
-    link: "https://ihtmam.com.sa/",
-    imgProdu: sandImg,
-    demo: "",
-    codeback: ""
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "cashada ecommerce",
-    description: "Clothing brand - Country: Egypt",
-    link: "https://cashada.site/",
-    imgProdu: cashaImg,
+    name: "Maat Tours",
+    description: "Tourist trips ",
+    link: "https://maat-tours.netlify.app/",
+    imgProdu: glad,
     demo: "",
     codeback: ""
   },
