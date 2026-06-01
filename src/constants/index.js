@@ -50,7 +50,8 @@ import {
   ajad,
   mg,
   elaia,
-  coach
+  coach,
+  python
 } from "../assets/icons";
 
 export { uda, udadigi, CV };
@@ -84,6 +85,11 @@ export const skills = [
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+  },
+    {
+    imageUrl: python,
+    name: "Python",
+    type: "Backend",
   },
   {
     imageUrl: mongodb,
@@ -135,11 +141,7 @@ export const skills = [
     name: "SEO",
     type: "Animation",
   },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
+
   {
     imageUrl: github,
     name: "GitHub",
@@ -160,7 +162,7 @@ export const experiences = [
     iconBg: "#15acb161",
     date: " June  2025 - Present ",
     points: [
-      "As a Full Stack Developer at UWD, I design, develop, and maintain a variety of advanced web and system solutions using modern technologies. My expertise spans the MERN Stack (MongoDB, Express.js, React, Node.js), PHP, SQL, and WordPress, enabling me to build scalable, high-performance systems — from dynamic websites to fully integrated business and management platforms. My work covers both front-end and back-end development, database architecture, and API integrations, ensuring seamless functionality and an exceptional user experience. I also develop custom systems tailored to specific business needs, focusing on efficiency, scalability, and reliability. I collaborate closely with clients and cross-functional teams to deliver secure, efficient, and future-ready solutions that drive digital transformation and business growth.",
+      "Building advanced web systems including financial dashboards, multi-branch e-commerce platforms with delivery tracking, real estate websites, and legacy system rebuilds using the MERN stack, SQL, and PHP.",
     ],
   },
   {
@@ -170,7 +172,7 @@ export const experiences = [
     iconBg: "#0d74ae",
     date: " July 2024 - May 2025 ",
     points: [
-      "As a Full Stack Developer at Stream Creations, I specialize in MERN Stack (MongoDB, Express.js, React, Node.js) development, along with expertise in PHP, WordPress, Shopify, and the Salla platform. I design, build, and optimize web and e-commerce solutions, ensuring high performance and seamless user experiences. My role encompasses both front-end and back-end development, client collaboration, and providing ongoing support for scalable and efficient applications.",
+      "Developed and optimized web and e-commerce platforms using MERN Stack, WordPress, Shopify, and Salla. Handled full front-end and back-end delivery with direct client collaboration.",
     ],
   },
   {
@@ -180,7 +182,7 @@ export const experiences = [
     iconBg: "#ffc107",
     date: " Oct 2023 - May 2024  ",
     points: [
-      "'Caf Sap' is a leading Saudi IT company known for its dedication to excellence and innovation. The company encourages collaboration and provides opportunities for professional growth. It values both technical expertise and employee well-being, fostering a supportive work environment. Employees are inspired to contribute to impactful projects and are proud to work alongside talented colleagues who continuously push boundaries in the IT industry.",
+      "Delivered custom e-commerce themes and solutions for clients across Saudi Arabia, working within a high-performing IT team.",
     ],
   },
   {
@@ -190,7 +192,7 @@ export const experiences = [
     iconBg: "#000",
     date: " Apr 2023 - July 2023  ",
     points: [
-      "I am immensely grateful for the valuable opportunity I had to complete my internship at Wxora in 2023. During this period, I underwent comprehensive training in modern web development, gaining proficiency in technologies such as React, Next, and Express. The experience not only elevated my technical skills but also deepened my understanding of software engineering principles, clean code practices, and system design. The knowledge and expertise I acquired at Wxora have been instrumental in shaping my professional growth, and I look forward to applying these skills in future endeavors.",
+      "Hands-on training in React, Next.js, Node.js, and Express — working on real projects and applying clean code and system design principles.",
     ],
   },
   {
@@ -200,8 +202,7 @@ export const experiences = [
     iconBg: "#a876ba",
     date: "Jan 2022 - Mar 2022",
     points: [
-      "As a WordPress Developer at Tamken Company, I had the opportunity to contribute my skills and expertise in web development during a part-time engagement spanning five months. In this role, I focused on WordPress development, working on various projects to enhance the company's online presence.",
-      "My responsibilities included leveraging the power of WordPress to create and customize websites, ensuring a seamless and visually appealing user experience. Through this part-time position, I honed my skills in WordPress development, gaining valuable hands-on experience in crafting responsive and feature-rich websites.",
+      "Built and customized WordPress websites, focusing on responsive design and plugin management.",
     ],
   },
   {
@@ -211,8 +212,7 @@ export const experiences = [
     iconBg: "#e5e5e5",
     date: "Feb 2021 - Mar 2023",
     points: [
-      "As a Website Developer and Ecommerce Manager at Eagle Company, I have had the privilege of contributing to the company's online presence and growth for the past three years. In my role, I served as the administrator for the company's online store, where I actively participated in the development and management of the e-commerce platform. My responsibilities included working on multiple platforms, including Shopify and System Odoo, to ensure seamless and efficient online operations.",
-      "During this tenure, I played a pivotal role in enhancing the functionality and user experience of the online store. This experience has not only deepened my expertise in website development but has also provided valuable insights into the intricacies of managing e-commerce platforms. The dynamic environment at Eagle Company has allowed me to evolve as a professional and contribute meaningfully to the success of the company's online ventures.",
+      "Managed and developed the company's online store on Shopify and Odoo — overseeing operations, platform updates, and technical improvements.",
     ],
   },
 ];
@@ -240,6 +240,7 @@ export const projects = [
     iconUrl: qrx,
     theme: "btn-back-black",
     name: "QRX",
+    category: "Systems & SaaS",
     description: "SaaS Platform for Digital Menu & Delivery Management ",
     link: "https://qrx-menu.vercel.app/",
     imgProdu: qrxdivi,
@@ -249,9 +250,10 @@ export const projects = [
   {
     iconUrl: coach,
     theme: "btn-back-black",
-    name: "elCoach GYM",
+    name: "Gym Core System",
+    category: "Systems & SaaS",
     description: "Complete gym management ٍSystem and membership control",
-    link: "https://coach-gym-v1.vercel.app/ar",
+    link: "https://gymcore-system.netlify.app",
     imgProdu: gymImage,
     demo: "",
     codeback: ""
@@ -260,7 +262,8 @@ export const projects = [
     iconUrl: menudido,
     theme: "btn-back-black",
     name: "Digital QR Code Menu",
-    description: "Digital QR Cone Menu || Menu, customer reviews and a complete control panel ",
+    category: "Systems & SaaS",
+    description: "QRX — Live Instance A real restaurant running on the QRX SaaS platform. ",
     link: "https://qrx-menu.vercel.app/didos",
     imgProdu: menu,
     demo: "",
@@ -270,6 +273,7 @@ export const projects = [
     iconUrl: summiz,
     theme: "btn-back-black",
     name: "Stream Creations",
+    category: "E-commerce & Business",
     description: "Marketing Agency - Country: Egypt",
     link: "https://streamcreations.com/",
     imgProdu: streamweb,
@@ -281,6 +285,7 @@ export const projects = [
     iconUrl: uwd,
     theme: "btn-back-black",
     name: "HR System and leaves Manages ",
+    category: "Systems & SaaS",
     description: "Complete HR management and leave tracking system with approvals, employee records, and email notifications ",
     link: "https://hr-system-uwd.netlify.app",
     imgProdu: leave,
@@ -291,6 +296,7 @@ export const projects = [
     iconUrl: mg,
     theme: "btn-back-black",
     name: "MG Development",
+    category: "Real Estate",
     description: "Smart property management and real estate marketing",
     link: "https://mg.com.eg/",
     imgProdu: mgImage,
@@ -301,6 +307,7 @@ export const projects = [
     iconUrl: logolaca,
     theme: "btn-back-black",
     name: "Dar Zayed",
+    category: "E-commerce & Business",
     description: "Handmade products - Country: Egypt",
     link: "https://darzayed-eg.com/",
     imgProdu: lacasa,
@@ -311,6 +318,7 @@ export const projects = [
     iconUrl: elaia,
     theme: "btn-back-black",
     name: "elaia ",
+    category: "Real Estate",
     description: "Modern luxury residential compound with facilities",
     link: "https://ajaddevelopments.com/elaia",
     imgProdu: elaiaImage,
@@ -322,22 +330,24 @@ export const projects = [
     iconUrl: ajad,
     theme: "btn-back-black",
     name: "Ajad Development",
+    category: "Real Estate",
     description: "Professional real estate sales and investment solutions",
     link: "https://ajaddevelopments.com",
     imgProdu: ajadImage,
     demo: "",
     codeback: ""
   },
-  {
+/*   {
     iconUrl: maaticon,
     theme: "btn-back-black",
     name: "Maat Tours",
+    category: "Tourism",
     description: "Tourist trips ",
     link: "https://maat-tours.netlify.app/",
     imgProdu: glad,
     demo: "",
     codeback: ""
   },
-
+ */
 
 ];

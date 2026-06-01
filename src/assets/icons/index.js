@@ -26,7 +26,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import digi from './digi.svg'
-import CV from './Karim Emad CV.pdf'
+import CV from './Karim-Emad-CV.pdf'
 import uda from '../images/uda.png'
 import udadigi from '../images/udadigi.png'
 import xora from './web.jfif'
@@ -48,6 +48,7 @@ import ajad from './ajad.png'
 import mg from './mg.png'
 import elaia from './elaia.png'
 import coach from './coach.png'
+import python from './Python.png'
 
 
 
@@ -103,5 +104,6 @@ export {
     ajad,
     mg,
     elaia,
-    coach
+    coach,
+    python
 }

@@ -8,6 +8,7 @@ import "../index.css";
 import { CTA, Footer } from "../components";
 import { experiences, skills, CV } from "../constants";
 
+
 import "react-vertical-timeline-component/style.min.css";
 import { NavLink } from "react-router-dom";
 
@@ -27,13 +28,8 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-        Hello, I’m Karim, a passionate Software Engineer with over 4 years of experience in web development.
-        I specialize in crafting dynamic and user-centric applications,
-        with 1.5 years of expertise in React and Next.js for building scalable front-end solutions.
-        On the back end, I have 1 year of experience with Node.js and Express.js,
-        delivering robust and efficient server-side systems. Proficient in JavaScript,
-        I’m committed to continuous learning and staying up-to-date 
-        with modern technologies to create seamless digital experiences that exceed user expectations.
+          A Software Engineer with 4+ years of experience building scalable web applications and digital products. I specialize in full-stack development using the MERN stack — crafting responsive, user-centric front-ends with React and Next.js, and robust back-end systems with Node.js and Express.js.
+          I've worked across SaaS platforms, e-commerce solutions, financial systems, and HR tools — always focused on clean architecture and real-world impact. Passionate about continuous learning and delivering experiences that go beyond expectations.
         </p>
       </div>
 
@@ -74,20 +70,9 @@ const About = () => {
                 <i class="fa-regular fa-file-code"></i>
                 <div class="mt-5 flex flex-col gap-3 text-slate-500">
                   <h3 className="subhead-text blue-gradient_text font-semibold drop-shadow">
-                  Certificates 📜
+                    Certificates 📜
                   </h3>
-                  Website programming and development play a crucial role in
-                  today's digital landscape. Businesses and project owners rely
-                  on it to enhance their services, showcase their products, and
-                  present a more professional image to customers. To achieve
-                  this, I utilize some of the most popular and efficient
-                  programming languages in web development, including HTML, CSS,
-                  and JavaScript, along with the React framework for building
-                  fast, dynamic, and interactive user interfaces. Additionally,
-                  I specialize in the MERN stack (MongoDB, Express.js, React,
-                  and Node.js), enabling the creation of powerful, scalable
-                  full-stack applications that deliver seamless user experiences
-                  and robust functionality.
+                  A selection of courses and certifications that shaped my technical foundation — from front-end fundamentals to full-stack mastery.
                 </div>
               </div>
             </div>
@@ -164,6 +149,57 @@ const About = () => {
 
       <CTA />
       <Footer />
+
+      {/* Download CV Button */}
+      <div className="fixed bottom-6 right-6 z-20">
+        <style>{`
+          @keyframes pulse-glow {
+            0%, 100% {
+              box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+            }
+            50% {
+              box-shadow: 0 0 25px rgba(34, 211, 238, 0.8);
+            }
+          }
+          
+          @keyframes bounce-arrow {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-4px);
+            }
+          }
+          
+          .cv-btn {
+            animation: pulse-glow 2s ease-in-out infinite;
+          }
+          
+          .cv-btn:hover svg {
+            animation: bounce-arrow 0.6s ease-in-out infinite;
+          }
+        `}</style>
+        <a
+          href={CV}
+          download="Karim Emad CV"
+          className="cv-btn inline-flex items-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-sm rounded-lg shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 ease-out"
+        >
+          <svg
+            className="w-4 h-4 transition-transform duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+            />
+          </svg>
+          CV
+        </a>
+      </div>
     </section>
   );
 };

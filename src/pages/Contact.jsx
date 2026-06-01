@@ -5,6 +5,7 @@ import Swal from 'sweetalert2'
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
+import { CV } from "../assets/icons";
 
 const Contact = () => {
   const formRef = useRef();
@@ -147,6 +148,57 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
+
+            {/* Download CV Button */}
+            <div className="fixed bottom-6 right-6 z-20">
+              <style>{`
+                @keyframes pulse-glow {
+                  0%, 100% {
+                    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+                  }
+                  50% {
+                    box-shadow: 0 0 25px rgba(34, 211, 238, 0.8);
+                  }
+                }
+                
+                @keyframes bounce-arrow {
+                  0%, 100% {
+                    transform: translateY(0);
+                  }
+                  50% {
+                    transform: translateY(-4px);
+                  }
+                }
+                
+                .cv-btn {
+                  animation: pulse-glow 2s ease-in-out infinite;
+                }
+                
+                .cv-btn:hover svg {
+                  animation: bounce-arrow 0.6s ease-in-out infinite;
+                }
+              `}</style>
+              <a
+                href={CV}
+                download="Karim Emad CV"
+                className="cv-btn inline-flex items-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-sm rounded-lg shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 ease-out"
+              >
+                <svg
+                  className="w-4 h-4 transition-transform duration-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  />
+                </svg>
+                CV
+              </a>
+            </div>
     </section>
   );
 };
