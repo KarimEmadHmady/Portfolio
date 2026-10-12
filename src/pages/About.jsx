@@ -8,11 +8,19 @@ import "../index.css";
 import { CTA, Footer } from "../components";
 import { experiences, skills, CV } from "../constants";
 
-
 import "react-vertical-timeline-component/style.min.css";
-import { NavLink } from "react-router-dom";
 
 import { uda, udadigi, xora, stramcertive } from "../assets/icons";
+
+// Same file name for every download button so the browser always saves a .pdf
+const CV_FILE_NAME = "Karim-Emad-CV.pdf";
+
+const certificates = [
+  { src: udadigi, alt: "Udacity Digital Marketing certificate" },
+  { src: stramcertive, alt: "Stream Creations certificate" },
+  { src: xora, alt: "Wxora training certificate" },
+  { src: uda, alt: "Udacity Front-End Web Development certificate" },
+];
 
 const About = () => {
   return (
@@ -28,8 +36,16 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          A Software Engineer with 4+ years of experience building scalable web applications and digital products. I specialize in full-stack development using the MERN stack — crafting responsive, user-centric front-ends with React and Next.js, and robust back-end systems with Node.js and Express.js.
-          I've worked across SaaS platforms, e-commerce solutions, financial systems, and HR tools — always focused on clean architecture and real-world impact. Passionate about continuous learning and delivering experiences that go beyond expectations.
+          Software Engineer with 5 years of experience in web development and
+          e-commerce, including 3+ years of full-stack development. I specialize
+          in the MERN stack and Next.js, building multi-tenant SaaS platforms,
+          Progressive Web Apps (PWAs), and role-based business systems for HR,
+          finance, restaurant ordering, and yacht sales.
+        </p>
+        <p>
+          I handle projects end-to-end, from development to deployment with
+          CI/CD pipelines (GitHub Actions), and I've led the migration and
+          refactoring of complex legacy systems.
         </p>
       </div>
 
@@ -46,7 +62,7 @@ const About = () => {
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"
                 />
-                <h1 className="blue-gradient_text">{skill.name}</h1>
+                <span className="blue-gradient_text">{skill.name}</span>
               </div>
             </div>
           ))}
@@ -55,33 +71,40 @@ const About = () => {
 
       <a
         href={CV}
-        download="Karim-Emad-CV.pdf"
-        className="subhead-text  blue-gradient_text font-semibold  button-My-Resume"
+        download={CV_FILE_NAME}
+        className="subhead-text blue-gradient_text font-semibold button-My-Resume"
       >
         Download My Resume
       </a>
 
       <div className="what-i-do">
-        <h3 className="subhead-text blue-gradient_text ">Empowering Learning Journey</h3>
+        <h3 className="subhead-text blue-gradient_text">
+          Empowering Learning Journey
+        </h3>
         <div className="what-i-do-contanar">
-          <div class="tex-what-i-do">
+          <div className="tex-what-i-do">
             <div>
               <div>
-                <i class="fa-regular fa-file-code"></i>
-                <div class="mt-5 flex flex-col gap-3 text-slate-500">
+                <i className="fa-regular fa-file-code"></i>
+                <div className="mt-5 flex flex-col gap-3 text-slate-500">
                   <h3 className="subhead-text blue-gradient_text font-semibold drop-shadow">
                     Certificates 📜
                   </h3>
-                  A selection of courses and certifications that shaped my technical foundation — from front-end fundamentals to full-stack mastery.
+                  A selection of courses and certifications that shaped my
+                  technical foundation, from front-end fundamentals to
+                  full-stack development.
                 </div>
               </div>
             </div>
-            <img src={udadigi} class="img-what-i-do" />
-            <img src={stramcertive} class="img-what-i-do" />
-            <img src={xora} class="img-what-i-do" />
-            <img src={uda} class="img-what-i-do " />
+            {certificates.map((cert) => (
+              <img
+                key={cert.alt}
+                src={cert.src}
+                alt={cert.alt}
+                className="img-what-i-do"
+              />
+            ))}
           </div>
-
         </div>
       </div>
 
@@ -96,9 +119,9 @@ const About = () => {
 
         <div className="mt-12 flex">
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {experiences.map((experience) => (
               <VerticalTimelineElement
-                key={experience.company_name}
+                key={`${experience.company_name}-${experience.date}`}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
@@ -129,11 +152,11 @@ const About = () => {
                   </p>
                 </div>
 
-                <ul className="my-5 list-disc ml-5 space-y-2 ">
-                  {experience.points.map((point, index) => (
+                <ul className="my-5 list-disc ml-5 space-y-2">
+                  {experience.points.map((point, pointIndex) => (
                     <li
-                      key={`experience-point-${index}`}
-                      className="text-black-500/50 font-normal pl-1 text-sm "
+                      key={`experience-point-${pointIndex}`}
+                      className="text-black-500/50 font-normal pl-1 text-sm"
                     >
                       {point}
                     </li>
@@ -150,38 +173,11 @@ const About = () => {
       <CTA />
       <Footer />
 
-      {/* Download CV Button */}
+      {/* Floating Download CV Button */}
       <div className="fixed bottom-6 right-6 z-20">
-        <style>{`
-          @keyframes pulse-glow {
-            0%, 100% {
-              box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
-            }
-            50% {
-              box-shadow: 0 0 25px rgba(34, 211, 238, 0.8);
-            }
-          }
-          
-          @keyframes bounce-arrow {
-            0%, 100% {
-              transform: translateY(0);
-            }
-            50% {
-              transform: translateY(-4px);
-            }
-          }
-          
-          .cv-btn {
-            animation: pulse-glow 2s ease-in-out infinite;
-          }
-          
-          .cv-btn:hover svg {
-            animation: bounce-arrow 0.6s ease-in-out infinite;
-          }
-        `}</style>
         <a
           href={CV}
-          download="Karim Emad CV"
+          download={CV_FILE_NAME}
           className="cv-btn inline-flex items-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-sm rounded-lg shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 ease-out"
         >
           <svg
@@ -189,6 +185,7 @@ const About = () => {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            aria-hidden="true"
           >
             <path
               strokeLinecap="round"
